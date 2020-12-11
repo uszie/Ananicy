@@ -11,6 +11,8 @@ import _thread
 from enum import Enum, unique
 from time import sleep
 
+os.environ["LANG"] = ""
+os.environ["LANGUAGE"] = ""
 
 class Failure(Exception):
     pass
